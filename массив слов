@@ -10,8 +10,10 @@ namespace массив_слов
     {
         static void Main(string[] args)
         {
+            char space = ' ';
+            char comma = ',';
             string sourseLine = "Наша онлаин школа ЯЮниор является лучшей в России";
-            string[] arrayOfWords = sourseLine.Split(' ', ',');
+            string[] arrayOfWords = sourseLine.Split(space,comma) ;
 
             Console.WriteLine(sourseLine);
             Console.ReadKey();
